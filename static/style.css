@@ -5,9 +5,8 @@
 
 body
 {
- 	background: linear-gradient(270deg, #4bd3ff, #8598ff);
+ 	background: linear-gradient(270deg, #4bd3ff, #293fbe);
 	background-size: 600% 600%;
-
 	-webkit-animation: AnimationName 30s ease infinite;
 	-moz-animation: AnimationName 30s ease infinite;
 	animation: AnimationName 30s ease infinite;
@@ -56,7 +55,7 @@ body
 	font-family:"iosevka";
 	font-size:70px;
 	text-align:center;
-	color:white;
+	color:black;
 }
 
 #login-box
@@ -189,7 +188,7 @@ body
 
 #login-name:focus
 {
-	background-color:white;
+	background-color:rgb(255, 255, 255);
 	border:1px solid #e6e6e6;
 }
 
@@ -206,7 +205,7 @@ body
 	border-radius:10px;
 	text-align: center;
 }
-}
+
 
 #login-password::-webkit-input-placeholder {
     font-family: 'iosevka';
