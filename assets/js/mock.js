@@ -49,10 +49,10 @@ if (!('lightdm' in window)) {
 
     lightdm.users = [
         {
-            name: "sexmachine",
-            real_name: "superman",
-            display_name: "Magic Wave",
-            image: "static/profile.png",
+            name: "clarkk",
+            real_name: "Superman",
+            display_name: "Clark Kent",
+            image: "https://d2ffutrenqvap3.cloudfront.net/items/2e312W101Q0R1U2a1Q2k/1756295270.jpg.x160.jpg",
             language: "en_US",
             layout: null,
             session: null,
@@ -62,7 +62,7 @@ if (!('lightdm' in window)) {
             name: "brucew",
             real_name: "Batman",
             display_name: "Bruce Wayne",
-            image: "http://uk.omg.li/VDHr/OW-blog-Batman.jpg",
+            image: "https://d2ffutrenqvap3.cloudfront.net/items/31411b1L1l1k1M062s1R/OW-blog-Batman.jpg",
             language: "en_US",
             layout: null,
             session: null,
@@ -125,7 +125,7 @@ if (!('lightdm' in window)) {
         if (!user) {
             show_error(username + " is an invalid user");
         }
-        //show_prompt("Password: ");
+        show_prompt("Password: ");
         lightdm._username = username;
     };
 
