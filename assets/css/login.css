@@ -56,7 +56,9 @@ body {
     background-color: rgba(240,240,240,.8);
     margin: 200px auto 25px;
     border-radius: 20px;
-    box-shadow: 0 2px 2px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0px 17px 28px 8px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 17px 28px 8px rgba(0,0,0,0.52);
+    box-shadow: 0px 17px 28px 8px rgba(0,0,0,0.52);
 }
 .signin-card {
     width: 274px;
